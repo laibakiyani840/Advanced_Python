@@ -88,6 +88,6 @@ flattened_c=reshaped_c.flatten()
 print(flattened_c)
 
 # Transpose of an array
-b=np.array([[1,2],[3,4]])
+b=np.array([[1,2],[3,4]])   
 print(b)
 print(b.T)

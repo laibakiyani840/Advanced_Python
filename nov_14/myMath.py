@@ -6,6 +6,3 @@ def subtract(x, y):
 pi= 3.14159
 def multiply(x, y):
     return x * y    
-
-
-
