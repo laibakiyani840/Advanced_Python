@@ -1,0 +1,566 @@
+
+Q1. What is the correct file extension for Python files?
+A) `.pt`
+B) `.python`
+C) `.py`
+D) `.pyt`
+
+
+---
+
+Q2. Which of the following is used to display output in Python?
+A) `print[]`
+B) `echo()`
+C) `print()`
+D) `write()`
+
+
+---
+
+Q3. Which of the following is a valid variable name in Python?
+A) `1variable`
+B) `my-variable`
+C) `my_variable`
+D) `my variable`
+
+
+---
+
+Q4. What is the data type of the value `True` in Python?
+A) `int`
+B) `str`
+C) `bool`
+D) `float`
+
+
+---
+
+Q5. What will be the result of: `type("42")`?
+A) `<class 'int'>`
+B) `<class 'float'>`
+C) `<class 'str'>`
+D) `<class 'bool'>`
+
+
+---
+
+Q6. Which function is used to get input from the user in Python?
+A) `scanf()`
+B) `input()`
+C) `gets()`
+D) `read()`
+
+
+---
+
+Q7. Which data type is immutable in Python?
+A) List
+B) Dictionary
+C) Set
+D) Tuple
+
+
+---
+
+Q8. What is the result of `int("5") + float("2.5")`?
+A) `7.5`
+B) `52.5`
+C) `TypeError`
+D) `7`
+
+
+---
+
+Q9. Which of the following is not a built-in data type in Python?
+A) `complex`
+B) `real`
+C) `set`
+D) `list`
+
+
+---
+
+Q10. What will the following code print?
+
+```python
+x = None  
+print(type(x))
+```
+
+A) `<class 'str'>`
+B) `<class 'NoneType'>`
+C) `<class 'bool'>`
+D) `<class 'object'>`
+
+
+---
+
+## 🔄 Part 2: Conditions, Ternary, Loops, and Functions
+
+Q11. What will the following code output?
+
+```python
+a = 10  
+if a > 5:  
+    print("Greater")  
+else:  
+    print("Smaller")  
+```
+
+A) Error
+B) Smaller
+C) Greater
+D) Nothing
+
+
+---
+
+Q12. What is the syntax for a ternary conditional operator in Python?
+A) `condition ? true : false`
+B) `if condition then true else false`
+C) `true if condition else false`
+D) `condition if true else false`
+
+
+---
+
+Q13. Which loop is used when the number of iterations is unknown?
+A) `for`
+B) `while`
+C) `loop`
+D) `do-while`
+
+
+---
+
+Q14. What will be the output of this loop?
+
+```python
+for i in range(2):  
+    print(i)  
+```
+
+A) 1 2
+B) 0 1 2
+C) 0 1
+D) 1
+
+
+---
+
+Q15. Which of the following keywords is used to define a function in Python?
+A) `define`
+B) `function`
+C) `def`
+D) `func`
+
+
+---
+
+Q16. What is the output of this function?
+
+```python
+def greet(name):  
+    return "Hello " + name  
+print(greet("Tom"))  
+```
+
+A) `Hello name`
+B) `Hello Tom`
+C) `greet Tom`
+D) `name Tom`
+
+
+---
+
+Q17. What does the `break` statement do in a loop?
+A) Skips the current iteration
+B) Exits the loop entirely
+C) Pauses the loop
+D) Restarts the loop
+
+
+---
+
+Q18. Which of the following is an infinite loop?
+A) `for i in range(10)`
+B) `while True:`
+C) `while i < 10:`
+D) `for i in []:`
+
+
+---
+
+Q19. What will this code print?
+
+```python
+x = 5  
+print("Even" if x % 2 == 0 else "Odd")  
+```
+
+A) Even
+B) Odd
+C) 0
+D) Error
+
+
+---
+
+Q20. Which statement is true about functions in Python?
+A) Functions cannot return values
+B) Functions can return multiple values
+C) Functions must return something
+D) Python does not support functions
+
+
+---
+
+
+Q21. What will be the output of the following code?
+
+```python
+x = 15  
+if x < 10:  
+    print("Low")  
+elif x < 20:  
+    print("Medium")  
+else:  
+    print("High")  
+```
+
+A) Low
+B) Medium
+C) High
+D) Error
+
+
+---
+
+Q22. What is the purpose of the `else` block in a conditional statement?
+A) Execute if the condition is true
+B) Execute if the condition is false
+C) Execute always
+D) Define a new variable
+
+
+---
+
+Q23. Choose the correct ternary operator equivalent of:
+
+```python
+if a > b:  
+    result = a  
+else:  
+    result = b  
+```
+
+A) `a if a > b else b`
+B) `result = a > b ? a : b`
+C) `a > b ? a : b`
+D) `result = b if a > b else a`
+
+
+---
+
+Q24. What is the result of this ternary operation?
+
+```python
+print("Yes" if 10 > 5 else "No")  
+```
+
+A) Yes
+B) No
+C) True
+D) Error
+
+
+---
+
+Q25. Which of the following is invalid in a ternary expression?
+A) `x if y else z`
+B) `value = a if cond else b`
+C) `print("Even") if n%2==0 else print("Odd")`
+D) `a if b then c else d`
+
+
+---
+
+Q26. How many `elif` blocks can you have in a Python conditional statement?
+A) 1
+B) 2
+C) Any number
+D) None
+
+
+---
+
+Q27. What is the correct syntax for a nested `if` statement?
+A) `if if(condition):`
+B) `if (condition1): if (condition2):`
+C) `if (condition1) then if (condition2)`
+D) `if condition1, condition2:`
+
+
+---
+
+Q28. What is the output of the following code?
+
+```python
+x = 0  
+if x:  
+    print("Yes")  
+else:  
+    print("No")  
+```
+
+A) Yes
+B) No
+C) 0
+D) Error
+
+
+---
+
+Q29. In Python, non-zero values are treated as:
+A) False
+B) True
+C) Errors
+D) Zero
+
+
+---
+
+Q30. Which of the following is not a comparison operator in Python?
+A) `==`
+B) `!=`
+C) `<>`
+D) `<=`
+
+
+---
+
+
+
+Q31. What is the output of this code?
+
+```python
+for i in range(1, 4):  
+    print(i, end=" ")  
+```
+
+A) 0 1 2
+B) 1 2 3
+C) 1 2 3 4
+D) Error
+
+
+---
+
+Q32. Which keyword is used to skip the current iteration in a loop?
+A) `pass`
+B) `skip`
+C) `break`
+D) `continue`
+
+
+---
+
+Q33. How many times will the loop run?
+
+```python
+for i in range(3):  
+    print(i)  
+```
+
+A) 2
+B) 3
+C) 4
+D) Infinite
+
+
+---
+
+Q34. What is the use of `else` in a loop?
+A) Executes when loop ends normally (not by break)
+B) Executes if break occurs
+C) Executes always
+D) It's invalid
+
+
+---
+
+Q35. Which of these loops does not exist in Python?
+A) `for`
+B) `while`
+C) `do-while`
+D) All exist
+
+
+---
+
+Q36. What will be the output?
+
+```python
+count = 0  
+while count < 2:  
+    print("Hello")  
+    count += 1  
+```
+
+A) Hello
+B) Hello Hello
+C) Infinite Hello
+D) Nothing
+
+
+---
+
+Q37. Choose the correct way to iterate through a list:
+A) `for item in [1,2,3]:`
+B) `foreach item in [1,2,3]:`
+C) `loop item in [1,2,3]:`
+D) `for i to 3:`
+
+
+---
+
+Q38. What will be printed?
+
+```python
+for i in range(0, 10, 5):  
+    print(i)  
+```
+
+A) 0 1 2 3 4
+B) 0 5
+C) 5 10
+D) Error
+
+
+---
+
+Q39. Which loop is best suited when the number of iterations is known?
+A) `for`
+B) `while`
+C) `foreach`
+D) `until`
+
+---
+
+Q40. What happens if the `break` condition is never met in a `while True` loop?
+A) Loop ends
+B) Code after loop runs
+C) Infinite loop
+D) Error
+
+---
+
+
+
+Q41. How do you define a function in Python?
+A) `func myFunc():`
+B) `def myFunc():`
+C) `function myFunc():`
+D) `create myFunc():`
+
+---
+
+Q42. What will be the result?
+
+```python
+def add(x, y):  
+    return x + y  
+print(add(2, 3))  
+```
+
+A) 2 + 3
+B) 5
+C) Error
+D) add(x, y)
+
+
+---
+
+Q43. Functions in Python can return:
+A) Only strings
+B) Only numbers
+C) Multiple values
+D) Only one value
+
+
+---
+
+Q44. Which of the following is a correct function call?
+A) `call func()`
+B) `func[]`
+C) `func()`
+D) `func`
+
+
+---
+
+Q45. What is the default return value of a function that does not explicitly return?
+A) `0`
+B) `undefined`
+C) `None`
+D) `void`
+
+
+---
+
+Q46. Can a function call another function?
+A) No
+B) Yes
+C) Only if global
+D) Only in loops
+
+
+---
+
+Q47. What is the output?
+
+```python
+def test():  
+    pass  
+print(test())  
+```
+
+A) `None`
+B) `pass`
+C) `Error`
+D) `test()`
+
+---
+
+Q48. Where should you define a function to use it?
+A) After it’s called
+B) Before it's called
+C) Outside the script
+D) Anywhere
+
+
+---
+
+Q49. Which of these can be used as parameters?
+A) int
+B) list
+C) str
+D) All of the above
+
+
+---
+
+Q50. What will the following code do?
+
+```python
+def greet(name="Guest"):  
+    print("Hello", name)  
+greet()  
+```
+
+A) Error
+B) Print "Hello"
+C) Print "Hello Guest"
+D) Nothing
+
+---
